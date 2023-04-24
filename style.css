@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Jost', sans-serif;
+}
+.main{
+    max-width: 1600px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    margin: 0px auto;
+}
+.header {
+    display: flex;
+    background-image: url(bbgg.png);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Jost', sans-serif;
+    margin: 0 auto;
+} 
+.headerline {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Jost', sans-serif;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.menu{
+    margin-left: 120px;
+}
+ width
+.nav-item {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    width: 1600px;
+    margin-left: 0px;
+    margin-right: 50px;
+    font-family: 'Jost', sans-serif;
+ 
+    transition: color 0.3s linear;
+}
+ 
+.nav-item:hover {
+    color: #00d9ff
+}
+ 
+.number{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 50px;
+    border-left: 1px solid #000000;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.social{
+    margin-left: 30px;
+}
+
+
+.GlavSqareTitles{
+    font-size: 100px;
+    text-align: center;
+    color: #000000;
+    padding-top: 250px;
+    font-weight: 500;
+}
+
+.GlavSquareText{
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+
+}
+.headerline,.Glavny2,.Glavny3,.Glavny4,.Glavny5,.Glavny6,.container2,.header{
+    width: 1600px;
+}
+.NashiPreimushestva{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFF6F6;
+    font-family: 'Jost', sans-serif;
+}
+
+.Glavny2{
+    background-color: #6B9EFF;
+    padding-top: 85px;
+}
+
+.cardimage{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    margin-bottom: 20px;
+}
+
+.cardtitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+
+.carddes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.card{
+    background-color: #8A9CBE;
+    width: 370px;
+    margin-right: 35px;
+    margin-top: 75px;
+    padding: 0px 20px;
+}
+
+.cardsholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 100px;
+    margin:0 auto;
+}
+
+.titlephoto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 160px;
+    margin: 0 auto;
+}
+
+.images4{
+    width: 460px;
+}
+
+.NashiUslugi{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color: #377CFF;
+    padding-top: 80px;
+    font-family: 'Jost', sans-serif;
+}   
+
+.Glavny3{
+    background-color: #D0F7FF;
+}
+
+.blockimage{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.blocktitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 45px;
+}
+
+.block{
+    background-color: #6B9EFF;
+    width: 370px;
+    border-radius: 25px;
+    margin:0 10px 80px;
+}
+
+.blockholder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Jost', sans-serif;
+    margin-top: 65px;
+    padding-bottom: 140px;
+}
+.NashaKomanda{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color: #20D6FC;
+    padding-top: 80px;
+    font-family: 'Jost', sans-serif;
+}
+
+.comandimage{
+    display: flex;
+    justify-content: center;
+}
+
+.comandtitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+
+.comanddes{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #20D6FC;
+}
+
+.comand{
+    width: 370px;
+    margin-right: 35px;
+    padding: 0px 10px;
+}
+
+.comandholder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 40px;
+
+}
+
+.Glavny5{
+    background-color: #49E0FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1600px;
+}
+.workdays{
+    width: 180px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.dayholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.daytime{
+    margin-top: 35px;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.daytext{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.button{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 60px;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color:black;
+    border-radius: 25px;
+    transition: background-color 0.3s linear;
+}
+
+.button:hover{
+    background-color: #0097fc;
+}
+
+
+.consultationbutton{
+    text-align: center;
+    padding-bottom: 65px;
+    
+}
+.OtzyvTitle{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color: #20D6FC;
+    padding-top: 80px;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+.Otzyvtext{
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    margin-left: 100px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Otzyvavtor{
+    margin-left: 800px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Jost', sans-serif;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.otzyvbutton{
+    text-align: center;
+    padding-bottom: 130px;
+    margin-top: 55px;
+}
+
+.otzyvbtn{
+    text-decoration: none;
+    background-color: #49E0FF;
+    padding: 8px 200px;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    color:white;
+    border-radius: 25px;
+    transition: background-color 0.3s linear;
+}
+
+.otzyvbtn:hover{
+    background-color: #0097fc;
+}
+
+
+.hide{
+    display: none;
+}
+
+.hide + label ~ div{
+    display: none;
+}
+
+.hide + label {
+    border-bottom: 1px dotted green;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hide:checked + label + div {
+    display: block;
+    background: #20D6FC;
+    padding: 10px;
+}
+
+.demo{
+    margin: 5% 10%;
+}
+
+/* price-list */
+h1,h2,p{
+    font-family: 'Jost', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 245, 0, 1);
+}
+h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 245, 0, 1);
+    margin-top: 16px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.container2{
+    margin: 0 auto;
+    width: 1600px;
+    height: 1000px;
+    background: #49E0FF;
+
+}
+.title-one{
+    padding: 225px 0 75px;
+}
+.title-one:hover{
+    color:gold;
+}
+.accordion {
+    background-color: #49E0FF;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.s;
+}
+.price-title:hover{
+    color:gold;
+}
+.panel {
+    position:relative;
+    display: none;
+    overflow: hidden;
+    background-color: #49E0FF;
+}
+
+.price-text{
+    margin-top: 24px;
+    padding-left:70px ;
+}
+.price{
+    margin-top: 24px;
+    width: 120px;
+    text-align: center;
+}
+.price-just{
+    width: 120px;
+    text-align: center;
+}
+.black{
+    color: black;
+}
+.price-title{
+    padding-left:220px;
+}
+.side{
+    padding:0 300px 0 220px;
+}
+.side-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line-price{
+    display: flex;
+    justify-content: space-between;
+
+}
+.line{
+    margin: 5px 34px 5px 0;
+    width: 284px;
+    border-bottom: 1px solid black; 
+}
+.title-two{
+    margin: 110px 0 30px;
+}
+.title-two:hover{
+    color:gold;
+}
+.price-final{
+    display: flex;
+    justify-content: end;
+}
+.indent{
+    padding-bottom: 270px;
+}
+/* pricelist end */
+.container3{
+    margin: 200px auto 0;
+    text-align: center;
+}
+.Uslugi{
+    padding-bottom: 100px;
+}
+
+.Uslugititle{
+    font-size: 64px;
+    font-weight: 600;
+    color: #20D6FC;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    font-family: 'Jost', sans-serif;
+}
+
+.accordion1 {
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 40px;
+  transition: 0.4s;
+  font-family: 'Jost', sans-serif;
+  background-color: white;
+  margin-top: 20px;
+  font-weight: 500;
+  
+}
+
+.accordion1:hover{
+    color: #20D6FC;
+}
+
+.panel1 {
+  margin:0 auto;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Jost', sans-serif;
+  margin-left: 70px;
+}
+
+.uslugititle{
+  color: #49E0FF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 40px;
+  transition: 0.4s;
+  font-family: 'Jost', sans-serif;
+  background-color: white;
+}
+
+.uslugitext{
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'Jost', sans-serif;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: #07cdff;
+}
+
+.titlephoto2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+.Contacttitle{
+    text-align: center;
+    font-size: 48PX;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color: #FAFF00;
+    padding-top: 70px;
+}
+
+.Contacttext{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.Contacttext1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.Contact{
+    background-color: #49E0FF;
+}
+
+.Contactholder{
+    padding-bottom: 130px;
+}
+
+.Futertitle{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+
+.Contactt{
+    font-size: 64px;
+    font-weight: 600;
+    color: #27B4D1;
+    font-family: 'Jost', sans-serif;  
+}
+
+.Adress{
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+

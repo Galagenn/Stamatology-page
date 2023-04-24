@@ -1,0 +1,46 @@
+.comandholder,.titlephoto,.titlephoto2,.blockholder,.cardsholder{
+    width: 100%;
+}
+.block{
+    width:30% ; 
+}
+.comand,.images4,.card{
+    width: 25%;
+}
+
+@media only screen and (max-width: 400px){
+    .card{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .Glavny2,.Glavny3,.Glavny4,.Glavny5,.Glavny6,.header,.container2{
+        width: 950px;
+    }
+        .comand,.block{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 300px){
+    .Glavny2,.Glavny3,.Glavny4,.Glavny5,.Glavny6,.header,.container2{
+        width: 950px;
+    }
+    .images4,.card{
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 250px){
+    .Glavny2,.Glavny3,.Glavny4,.Glavny5,.Glavny6,.header,.container2{
+        width: 950px;
+    }
+}
+@media only screen and (max-width: 200px){
+    .Glavny2,.Glavny3,.Glavny4,.Glavny5,.Glavny6,.header,.container2{
+        width: 950px;
+    }
+    .comand,.block,.images4{
+        width: 80%;
+    }
+
+}
